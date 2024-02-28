@@ -9,10 +9,10 @@ type CustomColors = {
 
 const theme = createTheme({
   colors: {
-    blue: ['#717EFE', '#717EFE', '#717EFE', '#717EFE', '#717EFE', '#717EFE', '#717EFE', '#717EFE', '#717EFE', '#717EFE'],
-    yellow: ['#FFB814', '#FFB814', '#FFB814', '#FFB814', '#FFB814', '#FFB814', '#FFB814', '#FFB814', '#FFB814', '#FFB814'],
+    blue: ['#717EFE', '#EEF9FF', '#717EFE', '#717EFE', '#717EFE', '#717EFE', '#717EFE', '#717EFE', '#717EFE', '#717EFE'],
+    yellow: ['#FFB814', '#FFB714', '#FFB814', '#FFB814', '#FFB814', '#FFB814', '#FFB814', '#FFB814', '#FFB814', '#FFB814'],
     yellowSecondary: ['#FFF9ED', '#FFF9ED', '#FFF9ED', '#FFF9ED', '#FFF9ED', '#FFF9ED', '#FFF9ED', '#FFF9ED', '#FFF9ED', '#FFF9ED'],
-    teal: ['#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9'],
+    teal: ['#06B9C9', '#ccedd8', '#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9', '#06B9C9'],
   } as CustomColors,
 });
 

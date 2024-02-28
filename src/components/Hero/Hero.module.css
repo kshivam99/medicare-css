@@ -1,0 +1,112 @@
+.container {
+  max-width: 1024px;
+  width: 100vw;
+  padding: 20px;
+  align-items: center;
+  justify-self: center;
+  
+}
+
+.heroMainImageContainer {
+  border: 5px solid #fff;
+  height: 360px;
+  width: 260px;
+  border-radius: 180px;
+  overflow: hidden; 
+  position: relative;
+  box-shadow: 0px 12px 60px 0 var(--mantine-color-teal-1);
+}
+
+.heroImgAbsolute {
+    position: relative;
+    bottom: -30px;
+    right: 300px;
+}
+.cards1 {
+    background-color: var(--mantine-color-blue-1);
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.cards2 {
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.cards3{
+    position: relative;
+    border-radius: 20px;
+    background-color: white;
+    padding: 12px;
+    padding-top: 24px;
+    left: -230px;
+}
+
+.cards4 {
+    background-color: var(--mantine-color-yellowSecondary-0);
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.label {
+    font-size: 8px;
+}
+.cards3 .avatar {
+    position: absolute;
+    top: -20px;
+}
+
+.flex1{
+    padding-top: 30px;
+    width: 40%;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.flex2 {
+    width: 35%;
+}
+
+.flex3 {
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.heroBottom1{
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.heroBottom2{
+    width: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bottom {
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+}
+
+
+.searchboxContainer {
+    border-radius: 20px;
+    position: absolute;
+    right: -24px;
+    z-index: 99;
+    box-shadow: 0px 2px 8px 0 var(--mantine-color-teal-1);
+}
+
+.iconBadge {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: black;
+    cursor: pointer;
+}

@@ -2,3 +2,8 @@
 .menuItem {
     cursor: pointer;
 }
+
+.container {
+    max-width: 1024px;
+    width: 100vw;
+}
