@@ -1,0 +1,14 @@
+.content {
+  height: 440px;
+  width: 380px;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100vw;
+  padding: 20px;
+}
+
+.info {
+  padding: 20px;
+}

@@ -69,3 +69,13 @@ export const doctors = [
     domain: 'Neurologist'
   }
 ]
+
+export const sections = [
+  {
+    heading: "We've got a team of licensed healthcare professionals who are dedicated to providing excellent medical assistance through our app."
+  },
+  {
+    heading: "Book an appointment for an in-clinic consultation",
+    subHeading: "Experience personalized healthcare services at a location of your choice within our extensive network of strategically placed clinics. Book your in-depth, in-clinic consultation now."
+  }
+]
