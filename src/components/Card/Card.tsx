@@ -8,12 +8,7 @@ interface CardProps {
 }
 function CardItem({ name, location, image }: CardProps) {
   return (
-    <Card
-      shadow="sm"
-      padding="xl"
-      component="a"
-      target="_blank"
-    >
+    <Card w={290} shadow="sm" padding="xl">
       <Card.Section>
         <Image src={image} h={160} alt="No way!" />
       </Card.Section>

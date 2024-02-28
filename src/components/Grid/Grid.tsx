@@ -6,7 +6,7 @@ import classes from "./Grid.module.css";
 
 function Grid({ data }: { data: Hospital[] }) {
   return (
-    <Flex className={classes.container} gap={20}>
+    <Flex className={classes.container} align='center' justify={'space-around'} gap={20}>
       {data.map((item, index) => (
         <CardItem
           key={index}

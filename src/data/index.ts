@@ -49,3 +49,23 @@ export const hospitals: Hospital[] = [
       "https://contactinformation.in/wp-content/uploads/2018/08/Lilavati-Hospital-Mumbai-1.jpg",
   },
 ];
+
+
+export const doctors = [
+  {
+    name: 'Dr. Wade W.',
+    domain: 'Cardiologist'
+  },
+  {
+    name: 'Dr. Litham A.',
+    domain: 'Paediatrician'
+  },
+  {
+    name: 'Dr. Robert F.',
+    domain: 'Nephrologist'
+  },
+  {
+    name: 'Dr. Krish W.',
+    domain: 'Neurologist'
+  }
+]
