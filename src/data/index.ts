@@ -1,9 +1,7 @@
-
-
 export interface Hospital {
-    name: string;
-    location: string;
-    image: string;
+  name: string;
+  location: string;
+  image: string;
 }
 
 export const hospitals: Hospital[] = [
@@ -40,7 +38,8 @@ export const hospitals: Hospital[] = [
   {
     name: "Manipal Hospitals",
     location: "Bangalore",
-    image: 'https://avocure-uploads.s3.amazonaws.com/uploads/clinic/cover_pic_url/47/manipal-hospital-bangalore-1481708155-5851127b1ff31.jpg'
+    image:
+      "https://avocure-uploads.s3.amazonaws.com/uploads/clinic/cover_pic_url/47/manipal-hospital-bangalore-1481708155-5851127b1ff31.jpg",
   },
   {
     name: "LilaVati Hospitals",
@@ -50,32 +49,54 @@ export const hospitals: Hospital[] = [
   },
 ];
 
-
 export const doctors = [
   {
-    name: 'Dr. Wade W.',
-    domain: 'Cardiologist'
+    name: "Dr. Wade W.",
+    domain: "Cardiologist",
   },
   {
-    name: 'Dr. Litham A.',
-    domain: 'Paediatrician'
+    name: "Dr. Litham A.",
+    domain: "Paediatrician",
   },
   {
-    name: 'Dr. Robert F.',
-    domain: 'Nephrologist'
+    name: "Dr. Robert F.",
+    domain: "Nephrologist",
   },
   {
-    name: 'Dr. Krish W.',
-    domain: 'Neurologist'
-  }
-]
+    name: "Dr. Krish W.",
+    domain: "Neurologist",
+  },
+];
 
 export const sections = [
   {
-    heading: "We've got a team of licensed healthcare professionals who are dedicated to providing excellent medical assistance through our app."
+    heading:
+      "We've got a team of licensed healthcare professionals who are dedicated to providing excellent medical assistance through our app.",
   },
   {
     heading: "Book an appointment for an in-clinic consultation",
-    subHeading: "Experience personalized healthcare services at a location of your choice within our extensive network of strategically placed clinics. Book your in-depth, in-clinic consultation now."
-  }
-]
+    subHeading:
+      "Experience personalized healthcare services at a location of your choice within our extensive network of strategically placed clinics. Book your in-depth, in-clinic consultation now.",
+  },
+];
+
+export const info = [
+  {
+    title: "2000+",
+    heading: "Doctors on board",
+    describe:
+      "We boast a comprehensive network of over 2000 accomplished and credentialed professionals on our team, ensuring a wealth of expertise and diverse medical specialties.",
+  },
+  {
+    title: "15+",
+    heading: "Countries",
+    describe:
+      "Our services have been extended to over 15 countries, exemplifying our global reach and commitment to providing healthcare solutions internationally.",
+  },
+  {
+    title: "2 Min",
+    heading: "Fast Response",
+    describe:
+      "Our healthcare team ensures swift, two-minute responses during consultations, underscoring our dedication to efficient and timely medical care.",
+  },
+];
